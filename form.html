@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="get">
+      <label for="user name">Name:</label>
+      <input type="text" name="username" placeholder="Enter your name" />
+      <br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+      <br />
+      <input type="email" name="email" placeholder="Enter your email address" />
+      <br />
+      <input type="date" name="date" placeholder="Enter your date of birth" />
+      <br />
+      <input type="radio" name="gender" value="male" /><br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="number" name="number" min="1" max="1000" />
+      <br />
+      <input
+        type="datetime-local"
+        name="datetime-local"
+        placeholder="Enter your date and time"
+      />
+      <br />
+      <button type="submit" name="submit">Submit</button>
+    </form>
+    <style>
+      input {
+        margin-left: 10px;
+      }
+    </style>
+  </body>
+</html>

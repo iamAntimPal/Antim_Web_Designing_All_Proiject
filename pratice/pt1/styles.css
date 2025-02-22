@@ -1,0 +1,194 @@
+/* General Styles */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     font-family: Arial, sans-serif;
+     background-color: #000;
+     color: #fff;
+}
+
+.container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+}
+
+header {
+     background-color: #111;
+     padding: 20px 0;
+     text-align: center;
+}
+
+header h1 {
+     font-size: 2rem;
+}
+
+header nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+
+header nav ul li a {
+     color: #fff;
+     text-decoration: none;
+}
+
+.dark-theme {
+     background-color: #000;
+     color: #fff;
+}
+
+/* Home Section */
+#home {
+     text-align: center;
+     padding: 50px 0;
+}
+
+.workspace-image {
+     width: 100%;
+     max-width: 600px;
+     margin-top: 20px;
+}
+
+/* About Section */
+#about {
+     text-align: center;
+     padding: 50px 0;
+}
+
+.portrait-image {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     margin: 20px auto;
+}
+
+.skills {
+     margin-top: 20px;
+}
+
+.skill-bar {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+}
+
+.progress-bar {
+     flex: 1;
+     height: 10px;
+     background-color: #333;
+     margin-left: 10px;
+     border-radius: 5px;
+     overflow: hidden;
+}
+
+.progress-bar div {
+     height: 100%;
+     background-color: cyan;
+}
+
+/* Resume Section */
+#resume {
+     text-align: center;
+     padding: 50px 0;
+}
+
+.download-btn {
+     background-color: cyan;
+     color: #000;
+     padding: 10px 20px;
+     border: none;
+     cursor: pointer;
+     margin-bottom: 20px;
+}
+
+.resume-content {
+     text-align: left;
+}
+
+/* Services Section */
+#services {
+     text-align: center;
+     padding: 50px 0;
+}
+
+.service-cards {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+}
+
+.card {
+     background-color: lightblue;
+     color: #000;
+     padding: 20px;
+     border-radius: 10px;
+     width: 300px;
+}
+
+/* Works Section */
+#works {
+     text-align: center;
+     padding: 50px 0;
+}
+
+.work-cards {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+}
+
+.card {
+     background-color: lightblue;
+     color: #000;
+     padding: 20px;
+     border-radius: 10px;
+     width: 300px;
+}
+
+/* Contact Section */
+#contact {
+     text-align: center;
+     padding: 50px 0;
+}
+
+#contact-form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     max-width: 500px;
+     margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+}
+
+#contact-form button {
+     background-color: cyan;
+     color: #000;
+     padding: 10px;
+     border: none;
+     cursor: pointer;
+}
+
+.contact-info {
+     margin-top: 20px;
+}
+
+/* Footer */
+footer {
+     text-align: center;
+     padding: 20px 0;
+     background-color: #111;
+}

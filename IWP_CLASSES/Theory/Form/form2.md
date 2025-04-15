@@ -1,8 +1,4 @@
-Here's a **complete HTML forms guide** with all elements, attributes, and explanations, organized with an index:
-
----
-
-# **HTML Forms & CSS Styling: Complete Reference**
+# **HTML Forms**
 
 ## **Index**
 1. [Form Basics](#1-form-basics)  
@@ -297,8 +293,10 @@ document.querySelector("form").addEventListener("submit", (e) => {
 ---
 
 ## **6. Accessibility**
+
 - Use `<label>` with `for` matching `id`.
 - Add `aria-describedby` for error messages:
+
   ```html
   <input 
     type="text" 
@@ -310,6 +308,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
 ---
 
 ## **7. Example Project**
+
 ```html
 <form action="/register" method="POST" class="registration-form">
   <h2>Registration Form</h2>
@@ -389,7 +388,3 @@ input:invalid + .error-message {
   display: block;
 }
 ```
-
----
-
-This guide covers **all standard form elements**, their attributes, styling techniques, and validation methods. Use it as a reference to build robust, accessible, and visually appealing forms! 🚀

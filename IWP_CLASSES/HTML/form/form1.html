@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <h1>Form</h1>
+     <p> This form for sita</p>
+     <form>
+          <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Enter your name" maxlength="10" required><br><br>
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Enter your Email" maxlength="10" required><br><br>
+          <label for="password">Password:</label>
+          <input type="password" name="password" placeholder="Enter your password" maxlength="10" required><br><br>
+          <label for="message">Message</label>
+          <textarea name="message" rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female<br><br>
+          <input type="checkbox" name="hobby" value="reading"> Reading
+          <input type="checkbox" name="hobby" value="writing"> Writing<br><br>
+          <input type="checkbox" name="hobby" value="traveling"> Traveling<br><br>
+          <input type="file" name="file" accept=".jpg, .png, .pdf"><br><br>
+          <select name="country">
+               <option value="India">India</option>
+               <option value="USA">USA</option>
+               <option value="UK">UK</option>
+               <option value="Australia">Australia</option>
+               <option value="Canada">Canada</option>
+          </select><br><br>
+          <select name="state">
+               <option value="Maharashtra">Maharashtra</option>
+               <option value="Gujarat">Gujarat</option>
+               <option value="Karnataka">Karnataka</option>
+               <option value="Tamil Nadu">Tamil Nadu</option>
+               <option value="Kerala">Kerala</option>
+          </select><br><br>
+          <input type="date" name="date"><br><br>
+          <input type="color" name="color"><br><br>
+          <input type="number" name="number" min="1" max="10"><br><br>
+          <input type="range" name="range" min="1" max="100"><br><br>
+          <input type="url" name="url" placeholder="Enter your URL"><br><br>
+          <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
+          <input type="search" name="search" placeholder="Search"><br><br>
+          <input type="datetime-local" name="datetime"><br><br>
+          <input type="time" name="time"><br><br>
+          <input type="month" name="month"><br><br>
+          <input type="week" name="week"><br><br>
+          <input type="hidden" name="hidden" value="hidden value"><br><br>
+          <input type="image" src="https://via.placeholder.com/150" alt="Submit" width="50" height="50"><br><br>
+          
+          <input type="button" value="Button" onclick="alert('Button clicked!')"><br><br>
+
+          <input type="reset" value="Reset"><br><br>
+
+          <input type="submit" formaction="https://example.com/submit" formmethod="post" formtarget="_blank"><br><br>
+           <input type="submit" value="Submit">
+     </form>
+</body>
+</html>

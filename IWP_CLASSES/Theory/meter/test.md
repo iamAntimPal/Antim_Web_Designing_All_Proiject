@@ -1,6 +1,4 @@
-Here's a comprehensive **basic-to-advanced guide** for `<meter>` and `<progress>` elements:
 
----
 
 # HTML Meter & Progress Elements: From Basics to Advanced
 

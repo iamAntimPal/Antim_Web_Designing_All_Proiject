@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.section {
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.hero {
+  background-color: #00bcd4;
+  color: white;
+  padding: 120px 20px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background-color: #222;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

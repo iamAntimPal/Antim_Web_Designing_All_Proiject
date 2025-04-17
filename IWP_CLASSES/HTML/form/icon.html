@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub Trophies (Icon Style)</title>
+  <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pzk8S9X6Lg8UqboOY0Xv5e3MLSmXwo7m5q7XltG3VS5SRVZ2L60P+ZGJu8QH1AslFt/0v0R6TURfPkw5N6XQqQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #fafafa;
+    }
+    .trophy-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .trophy {
+      width: 120px;
+      text-align: center;
+    }
+    .trophy .icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .trophy .label {
+      display: block;
+      font-weight: bold;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    /* Colour codes for each rank */
+    .newbie       .icon { color: #95a5a6; } /* grey */
+    .junior-dev   .icon { color: #cd7f32; } /* bronze */
+    .intermediate .icon { color: #bdc3c7; } /* silver */
+    .experienced  .icon { color: #f1c40f; } /* gold */
+    .expert-dev   .icon { color: #9b59b6; } /* purple */
+    .master-dev   .icon { color: #e74c3c; } /* red */
+    .grandmaster  .icon { color: #2c3e50; } /* black/navy */
+    .seasoned-vet .icon { color: #34495e; } /* dark slate */
+    .jack-trades  .icon { color: #2ecc71; } /* green */
+  </style>
+</head>
+<body>
+
+  <h2>GitHub Trophy Icons</h2>
+  <div class="trophy-grid">
+
+    <!-- Experience Badges -->
+    <div class="trophy newbie">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Newbie<br>(0–1 yr)</span>
+    </div>
+
+    <div class="trophy junior-dev">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Junior Dev<br>(1.5 yrs)</span>
+    </div>
+
+    <div class="trophy intermediate">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Intermediate<br>(3 yrs)</span>
+    </div>
+
+    <div class="trophy experienced">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Experienced<br>(5 yrs)</span>
+    </div>
+
+    <div class="trophy expert-dev">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Expert Dev<br>(7.5 yrs)</span>
+    </div>
+
+    <div class="trophy master-dev">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Master Dev<br>(10 yrs)</span>
+    </div>
+
+    <div class="trophy grandmaster">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Grandmaster<br>(15 yrs)</span>
+    </div>
+
+    <div class="trophy seasoned-vet">
+      <i class="fa-solid fa-trophy icon"></i>
+      <span class="label">Seasoned Veteran<br>(20 yrs)</span>
+    </div>
+
+    <!-- Organization Badge -->
+    <div class="trophy jack-trades">
+      <i class="fa-solid fa-users icon"></i>
+      <span class="label">Jack of All Trades<br>(Orgs ≥ 3)</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
+<!-- Compare this snippet from IWP_CLASSES/HTML/form/form2.html: -->

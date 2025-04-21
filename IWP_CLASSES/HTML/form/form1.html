@@ -22,7 +22,10 @@
           <input type="checkbox" name="hobby" value="reading"> Reading
           <input type="checkbox" name="hobby" value="writing"> Writing<br><br>
           <input type="checkbox" name="hobby" value="traveling"> Traveling<br><br>
+          <!-- File upload section code write here -->
+           <label for="file">File Upload:</label>
           <input type="file" name="file" accept=".jpg, .png, .pdf"><br><br>
+          <label for="select">Select:</label>
           <select name="country">
                <option value="India">India</option>
                <option value="USA">USA</option>
@@ -30,32 +33,41 @@
                <option value="Australia">Australia</option>
                <option value="Canada">Canada</option>
           </select><br><br>
+          <label for="state">State:</label>
           <select name="state">
                <option value="Maharashtra">Maharashtra</option>
                <option value="Gujarat">Gujarat</option>
+               <option value="Rajasthan">Rajasthan</option>
+               <option value="Punjab">Punjab</option>
                <option value="Karnataka">Karnataka</option>
-               <option value="Tamil Nadu">Tamil Nadu</option>
-               <option value="Kerala">Kerala</option>
           </select><br><br>
+          <label for="date">Date:</label>
           <input type="date" name="date"><br><br>
           <input type="color" name="color"><br><br>
           <input type="number" name="number" min="1" max="10"><br><br>
           <input type="range" name="range" min="1" max="100"><br><br>
+          <!-- URL input field code write here -->
+          <label for="url">URL:</label>
           <input type="url" name="url" placeholder="Enter your URL"><br><br>
+          <!-- Telephone input field code write here -->
+          <label for="tel">Phone:</label>
+          <!-- Telephone input field code write here -->
           <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
+          <!-- Search input field code write here -->
+          <label for="search">Search:</label>
           <input type="search" name="search" placeholder="Search"><br><br>
+
           <input type="datetime-local" name="datetime"><br><br>
           <input type="time" name="time"><br><br>
           <input type="month" name="month"><br><br>
           <input type="week" name="week"><br><br>
+          <!-- Image input field code write here -->
           <input type="hidden" name="hidden" value="hidden value"><br><br>
-          <input type="image" src="https://via.placeholder.com/150" alt="Submit" width="50" height="50"><br><br>
-          
+
           <input type="button" value="Button" onclick="alert('Button clicked!')"><br><br>
 
-          <input type="reset" value="Reset"><br><br>
+          <input type="reset" value="Reset" onclick="alert('Reset clicked!')"><br><br>
 
-          <input type="submit" formaction="https://example.com/submit" formmethod="post" formtarget="_blank"><br><br>
            <input type="submit" value="Submit">
      </form>
 </body>

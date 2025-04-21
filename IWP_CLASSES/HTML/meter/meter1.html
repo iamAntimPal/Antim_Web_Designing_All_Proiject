@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <meter value="25" min="0" max="100" low="50" high="80" optimum="90">60 out of 100</meter>
+     <meter value="0.6" min="0" max="1" low="0.3" high="0.8" optimum="0.9">60 out of 100</meter>
+     <meter value="0.86" min="0" max="1" low="0.3" high="0.8" optimum="0.9">60 out of 100</meter>
+     <style>
+          meter {
+              width: 400px; /* Adjust width as needed */
+              height: 20px; /* Adjust height as needed */
+          }
+
+          /* Example of styling different parts of the meter */
+          meter::-webkit-meter-bar {
+              background: #ebe9e9;
+          }
+
+          meter::-webkit-meter-optimum-value {
+              background: green;
+          }
+
+          meter::-webkit-meter-suboptimum-value {
+              background: yellow;
+          }
+
+          meter::-webkit-meter-even-less-good-value {
+              background: red;
+          }
+</style>
+     
+</body>
+</html>
+
